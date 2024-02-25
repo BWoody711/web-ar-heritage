@@ -103,7 +103,7 @@
     <a-camera
       look-controls-enabled="false"
       arjs-device-orientation-controls="smoothingFactor: 0.1"
-      gps-new-camera="gpsMinDistance: 5, positionMinAccuracy: 50, alert: true"
+      gps-new-camera="gpsMinDistance: 100, positionMinAccuracy: 500, alert: true"
     ></a-camera>
     <a-entity
       material="color: red"
