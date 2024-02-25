@@ -100,12 +100,12 @@
     renderer="antialias: true; alpha: true"
   >
     <a-camera gps-new-camera="gpsMinDistance: 500"></a-camera>
-    <a-entity
+    <!-- <a-entity
       material="color: red"
       geometry="primitive: box"
       gps-new-entity-place="latitude: 0; longitude: 0"
       scale="10 10 10"
-    ></a-entity>
+    ></a-entity> -->
   </a-scene>
   <div class="thumbMenu">
     <button class="thumbButton">Description</button>
