@@ -63,7 +63,6 @@
     type="text/javascript"
     src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"
   ></script>
-  <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
   <style>
     video {
       padding: 0;
@@ -100,11 +99,7 @@
     arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false"
     renderer="antialias: true; alpha: true"
   >
-    <a-camera
-      look-controls-enabled="false"
-      arjs-device-orientation-controls="smoothingFactor: 0.1"
-      gps-new-camera="gpsMinDistance: 100, positionMinAccuracy: 500, alert: true"
-    ></a-camera>
+    <a-camera gps-new-camera="gpsMinDistance: 500"></a-camera>
     <a-entity
       material="color: red"
       geometry="primitive: box"
